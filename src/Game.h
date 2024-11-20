@@ -3,7 +3,7 @@
 #include "Square.h"
 #include "Piece.h"
 
-// Main field rows and columns
+
 const int ROWS = 20;
 const int COLS = 10;
 

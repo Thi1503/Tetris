@@ -1,4 +1,3 @@
-// game.cpp
 
 #include <cstdlib>
 #include <cstdio>
