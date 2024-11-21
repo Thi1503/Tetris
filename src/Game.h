@@ -1,54 +1,52 @@
-// game.h
-
-#include "Square.h"
+﻿#include "Square.h"
 #include "Piece.h"
 
+const int ROWS = 20; // Số hàng
+const int COLS = 10; // Số cột
 
-const int ROWS = 20;
-const int COLS = 10;
-
-// Main game class
+// Lớp chính của trò chơi
 class Game {
 public:
 
-	// Constructor
+	// Hàm khởi tạo
 	Game();
 
-	// Main game class methods
-	bool canRotate(Piece p);
-	bool moveCollision(int dir);
-	bool rotationCollision();
-	void clearMainGrid();
-	void clearNextPieceGrid();
-	void genNextPiece();
-	void restart();
-	void move(int dir);
-	void rotateShape(int rot);
-	void updateActivePiece();
-	void updateNextPieceGrid();
-	void fixActivePiece();
-	void update();
-	void updateActiveAfterCollision();
-	void checkLine();
-	void clearLine();
-	//bool gameOver();
+	// Các phương thức chính của trò chơi
+	bool canRotate(Piece p); // Kiểm tra khả năng xoay khối
+	bool moveCollision(int dir); // Kiểm tra va chạm khi di chuyển
+	bool rotationCollision(); // Kiểm tra va chạm khi xoay
+	void clearMainGrid(); // Xóa lưới chính
+	void clearNextPieceGrid(); // Xóa lưới hiển thị khối tiếp theo
+	void genNextPiece(); // Tạo khối tiếp theo
+	void restart(); // Khởi động lại trò chơi
+	void move(int dir); // Di chuyển khối
 	
-	// Game pieces
-	Piece activePiece;
-	Piece nextPiece;
-	Piece activePieceCopy;
+	void rotateShape(int rot); // Xoay khối
+	void updateActivePiece(); // Cập nhật khối hiện tại
+	void updateNextPieceGrid(); // Cập nhật lưới hiển thị khối tiếp theo
+	void fixActivePiece(); // Cố định khối hiện tại
+	void update(); // Cập nhật trạng thái trò chơi
+	void updateActiveAfterCollision(); // Cập nhật khối hiện tại sau va chạm
+	void checkLine(); // Kiểm tra dòng đầy
+	void clearLine(); // Xóa dòng đầy
+	//bool gameOver(); // Kiểm tra kết thúc trò chơi
 
-	// Current game grid
+	// Các khối trong trò chơi
+	Piece activePiece; // Khối hiện tại
+	Piece nextPiece; // Khối tiếp theo
+	Piece activePieceCopy; // Bản sao khối hiện tại
+
+	// Lưới hiện tại của trò chơi
 	Square mainGrid[ROWS][COLS];
 
-	// Grid with the next piece
+	// Lưới hiển thị khối tiếp theo
 	Square nextPieceGrid[5][5];
 
-	// Game data
-	bool killed;	
-	bool paused;
-	bool deleteLines;
-	int linesCleared;
-	int shapesCount;
-	int timer;		
+	// Dữ liệu trò chơi
+	bool killed; // Trạng thái bị mất
+	bool paused; // Trạng thái tạm dừng
+	bool deleteLines; // Trạng thái xóa dòng
+	int linesCleared; // Số dòng đã xóa
+	int shapesCount; // Số khối đã tạo
+	int timer; // Bộ đếm thời gian
 };

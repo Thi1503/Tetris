@@ -1,10 +1,8 @@
-// square.h
-
-class Square {
+﻿class Square {
 
 public:
-	bool isFilled;			// Is the cell filled
-	bool isActive;			// Is the cell active
-	bool toBeDeleted;		// Should the cell be deleted
-	float red, green, blue; // Cell color
+	bool isFilled;			// Ô này có được lấp đầy hay không
+	bool isActive;			// Ô này có đang hoạt động hay không
+	bool toBeDeleted;		// Ô này có cần được xóa hay không
+	float red, green, blue; // Màu sắc của ô (RGB)
 };

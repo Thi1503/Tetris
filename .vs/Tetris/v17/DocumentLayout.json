@@ -7,24 +7,32 @@
       "RelativeMoniker": "D:0:0:{A8C1B23C-26AE-474F-9ACF-FB0A5F6C8CDF}|Tetris.vcxproj|solutionrelative:src\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8C1B23C-26AE-474F-9ACF-FB0A5F6C8CDF}|Tetris.vcxproj|F:\\Code_OpenGL\\Tetris\\src\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A8C1B23C-26AE-474F-9ACF-FB0A5F6C8CDF}|Tetris.vcxproj|solutionrelative:src\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A8C1B23C-26AE-474F-9ACF-FB0A5F6C8CDF}|Tetris.vcxproj|F:\\Code_OpenGL\\Tetris\\src\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A8C1B23C-26AE-474F-9ACF-FB0A5F6C8CDF}|Tetris.vcxproj|solutionrelative:src\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1B23C-26AE-474F-9ACF-FB0A5F6C8CDF}|Tetris.vcxproj|F:\\Code_OpenGL\\Tetris\\src\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A8C1B23C-26AE-474F-9ACF-FB0A5F6C8CDF}|Tetris.vcxproj|solutionrelative:src\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A8C1B23C-26AE-474F-9ACF-FB0A5F6C8CDF}|Tetris.vcxproj|F:\\Code_OpenGL\\Tetris\\src\\Piece.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A8C1B23C-26AE-474F-9ACF-FB0A5F6C8CDF}|Tetris.vcxproj|solutionrelative:src\\Piece.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A8C1B23C-26AE-474F-9ACF-FB0A5F6C8CDF}|Tetris.vcxproj|F:\\Code_OpenGL\\Tetris\\src\\Piece.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A8C1B23C-26AE-474F-9ACF-FB0A5F6C8CDF}|Tetris.vcxproj|solutionrelative:src\\Piece.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A8C1B23C-26AE-474F-9ACF-FB0A5F6C8CDF}|Tetris.vcxproj|F:\\Code_OpenGL\\Tetris\\src\\Square.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A8C1B23C-26AE-474F-9ACF-FB0A5F6C8CDF}|Tetris.vcxproj|solutionrelative:src\\Square.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8C1B23C-26AE-474F-9ACF-FB0A5F6C8CDF}|Tetris.vcxproj|F:\\Code_OpenGL\\Tetris\\src\\Piece.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A8C1B23C-26AE-474F-9ACF-FB0A5F6C8CDF}|Tetris.vcxproj|solutionrelative:src\\Piece.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A8C1B23C-26AE-474F-9ACF-FB0A5F6C8CDF}|Tetris.vcxproj|F:\\Code_OpenGL\\Tetris\\include\\glut.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A8C1B23C-26AE-474F-9ACF-FB0A5F6C8CDF}|Tetris.vcxproj|solutionrelative:include\\glut.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C1B23C-26AE-474F-9ACF-FB0A5F6C8CDF}|Tetris.vcxproj|F:\\Code_OpenGL\\Tetris\\include\\glew.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A8C1B23C-26AE-474F-9ACF-FB0A5F6C8CDF}|Tetris.vcxproj|solutionrelative:include\\glew.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 327,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,26 +53,54 @@
               "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
+              "Title": "glut.h",
+              "DocumentMoniker": "F:\\Code_OpenGL\\Tetris\\include\\glut.h",
+              "RelativeDocumentMoniker": "include\\glut.h",
+              "ToolTip": "F:\\Code_OpenGL\\Tetris\\include\\glut.h",
+              "RelativeToolTip": "include\\glut.h",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-20T22:41:09.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "glew.h",
+              "DocumentMoniker": "F:\\Code_OpenGL\\Tetris\\include\\glew.h",
+              "RelativeDocumentMoniker": "include\\glew.h",
+              "ToolTip": "F:\\Code_OpenGL\\Tetris\\include\\glew.h",
+              "RelativeToolTip": "include\\glew.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-20T22:39:34.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Square.h",
               "DocumentMoniker": "F:\\Code_OpenGL\\Tetris\\src\\Square.h",
               "RelativeDocumentMoniker": "src\\Square.h",
               "ToolTip": "F:\\Code_OpenGL\\Tetris\\src\\Square.h",
               "RelativeToolTip": "src\\Square.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-20T15:14:17.733Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Piece.h",
               "DocumentMoniker": "F:\\Code_OpenGL\\Tetris\\src\\Piece.h",
               "RelativeDocumentMoniker": "src\\Piece.h",
               "ToolTip": "F:\\Code_OpenGL\\Tetris\\src\\Piece.h",
               "RelativeToolTip": "src\\Piece.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-20T15:12:34.955Z"
             },
@@ -76,7 +112,7 @@
               "RelativeDocumentMoniker": "src\\Game.h",
               "ToolTip": "F:\\Code_OpenGL\\Tetris\\src\\Game.h",
               "RelativeToolTip": "src\\Game.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBwAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-20T13:43:17.34Z",
               "EditorCaption": ""
@@ -89,31 +125,32 @@
               "RelativeDocumentMoniker": "src\\Piece.cpp",
               "ToolTip": "F:\\Code_OpenGL\\Tetris\\src\\Piece.cpp",
               "RelativeToolTip": "src\\Piece.cpp",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAwC4AAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-20T12:49:18.784Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Main.cpp",
               "DocumentMoniker": "F:\\Code_OpenGL\\Tetris\\src\\Main.cpp",
               "RelativeDocumentMoniker": "src\\Main.cpp",
               "ToolTip": "F:\\Code_OpenGL\\Tetris\\src\\Main.cpp",
               "RelativeToolTip": "src\\Main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAJgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-20T12:47:41.412Z"
+              "WhenOpened": "2024-11-20T12:47:41.412Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Game.cpp",
               "DocumentMoniker": "F:\\Code_OpenGL\\Tetris\\src\\Game.cpp",
               "RelativeDocumentMoniker": "src\\Game.cpp",
               "ToolTip": "F:\\Code_OpenGL\\Tetris\\src\\Game.cpp",
               "RelativeToolTip": "src\\Game.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAABIBAAAAAAAAAAAQwCsBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-20T12:47:40.825Z"
             }

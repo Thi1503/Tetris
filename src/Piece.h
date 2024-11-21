@@ -1,77 +1,75 @@
-// piece.h
+﻿// Các hằng số cơ bản
+const int numPieces = 7;	// Số lượng các khối khác nhau
+const int numRotations = 4; // Số lần xoay cho mỗi khối
+const int numSpaces = 8;	// Dung lượng lưu trữ thông tin về mỗi khối
 
-// Basic constants
-const int numPieces = 7;	// Number of different pieces
-const int numRotations = 4; // Number of turns for each piece
-const int numSpaces = 8;	// Memory capacity for storing information about each piece
-
-// Game piece class
+// Lớp khối trò chơi
 class Piece {
 
 public:
 
-	// Constructors
+	// Các hàm khởi tạo
 	Piece();
 	Piece(int newPiece);
 
-	// Piece coordinates (calculated from the upper left corner of the piece, even if this corner is empty)
+	// Tọa độ của khối (được tính từ góc trên bên trái của khối, ngay cả khi góc này trống)
 	int x;
 	int y;
 
-	// Color values
+	// Giá trị màu sắc
 	float redVal, greenVal, blueVal;
 
-	// Piece type and rotation
+	// Loại khối và trạng thái xoay
 	int type;
 	int rotation;
 
-	// Rotating a piece
+	// Xoay khối
 	void rotatePiece(int dir);
 
-	// Setting the piece color in RGB format
+	// Thiết lập màu sắc khối theo định dạng RGB
 	void color(float r, float g, float b);
 
-	// Values for rotating pieces
+	// Giá trị để xoay khối
 	const int* rotations();
 };
 
-// All pieces with each option of their rotation in the grid in the format {x0, y0, x1, y1, x2, y2, x3, y3}
+// Tất cả các khối với từng trạng thái xoay của chúng trong lưới, theo định dạng {x0, y0, x1, y1, x2, y2, x3, y3}
 const int gamePieces[numPieces][numRotations][numSpaces] =
 {
 	{
-		{0, 0, 1, 0, 0, 1, 1, 1}, // Square
+		{0, 0, 1, 0, 0, 1, 1, 1}, // Khối vuông
 		{0, 0, 1, 0, 0, 1, 1, 1},
 		{0, 0, 1, 0, 0, 1, 1, 1},
 		{0, 0, 1, 0, 0, 1, 1, 1},
 	},
 	{
-		{0, 0, 0, 1, 0, 2, 0, 3}, // Vertical line
+		{0, 0, 0, 1, 0, 2, 0, 3}, // Khối dọc
 		{0, 0, 1, 0, 2, 0, 3, 0},
 		{0, 0, 0, 1, 0, 2, 0, 3},
 		{0, 0, 1, 0, 2, 0, 3, 0},
 	},
 	{
-		{0, 0, 0, 1, 1, 1, 0, 2}, // T piece
+		{0, 0, 0, 1, 1, 1, 0, 2}, // Khối chữ T
 		{1, 0, 0, 1, 1, 1, 2, 1},
-		{0, 1, 1, 0, 1, 1, 1, 2}, 
+		{0, 1, 1, 0, 1, 1, 1, 2},
 		{0, 0, 1, 0, 2, 0, 1, 1}
 	},
-	{	{0, 0, 1, 0, 0, 1, 0, 2}, // L piece
+	{	{0, 0, 1, 0, 0, 1, 0, 2}, // Khối chữ L
 		{0, 0, 0, 1, 1, 1, 2, 1},
 		{1, 0, 1, 1, 0, 2, 1, 2},
 		{0, 0, 1, 0, 2, 0, 2, 1}
 	},
-	{	{0, 0, 1, 0, 1, 1, 1, 2}, // Reverse L piece
+	{	{0, 0, 1, 0, 1, 1, 1, 2}, // Khối chữ L ngược
 		{0, 0, 1, 0, 2, 0, 0, 1},
 		{0, 0, 0, 1, 0, 2, 1, 2},
 		{2, 0, 0, 1, 1, 1, 2, 1}
 	},
-	{	{0, 0, 0, 1, 1, 1, 1, 2}, // Z piece
+	{	{0, 0, 0, 1, 1, 1, 1, 2}, // Khối chữ Z
 		{1, 0, 2, 0, 0, 1, 1, 1},
 		{0, 0, 0, 1, 1, 1, 1, 2},
 		{1, 0, 2, 0, 0, 1, 1, 1}
 	},
-	{	{1, 0, 0, 1, 1, 1, 0, 2}, // Reverse Z piece
+	{	{1, 0, 0, 1, 1, 1, 0, 2}, // Khối chữ Z ngược
 		{0, 0, 1, 0, 1, 1, 2, 1},
 		{1, 0, 0, 1, 1, 1, 0, 2},
 		{0, 0, 1, 0, 1, 1, 2, 1}
